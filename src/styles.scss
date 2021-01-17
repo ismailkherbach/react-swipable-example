@@ -1,0 +1,216 @@
+::-webkit-scrollbar {
+  background: none;
+  border-radius: 2px;
+  height: 8px;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: none;
+  border-radius: 2px;
+  background-clip: content-box;
+  border: 5px solid transparent;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: none;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+h4 {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(26, 156, 153);
+  margin: 20px;
+}
+p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #0f4860;
+}
+.testCont {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ProccedBloc {
+  position: fixed;
+  width: 100%;
+  height: unset;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.418) 0px 0px 20px 0.5px;
+  border-radius: 35px 35px 0px 0px;
+  margin: 0;
+  padding-top: 10px;
+  cursor: pointer;
+
+  &p {
+    font-weight: "regular";
+    font-size: 1em;
+    color: blue;
+    margin: 0;
+    padding: 0;
+  }
+  & .Change-profile-btn {
+    font-weight: "regular";
+    background-color: white;
+    width: 139px;
+    color: white;
+    margin: 0 0 0 50px;
+  }
+  .dots {
+    margin: 15px;
+  }
+}
+.circleDotActive {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #386e75;
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+}
+
+.circleDotGray {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #d3d3d3;
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+}
+
+.scroll-cards {
+  padding-right: unset;
+  margin-right: unset;
+  height: 600px;
+  width: unset;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .navCard {
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #386e75;
+    margin: 20px;
+  }
+
+  .navCardDragged {
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #0e1a2c;
+    margin: 20px;
+  }
+  .navCardSwiping {
+    background: #4a5562;
+  }
+}
+
+.scroll-cards-swiping {
+  padding-right: unset;
+  margin-right: unset;
+  height: 600px;
+  width: unset;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .navCard {
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: #4a5562;
+    margin: 20px;
+  }
+
+  .navCardDragged {
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: #4a5562;
+    margin: 20px;
+  }
+}
+
+.fdc {
+  flex-direction: column;
+}
+.fdcr {
+  flex-direction: column-reverse;
+}
+.fdr {
+  flex-direction: row;
+}
+.fdrr {
+  flex-direction: row-reverse;
+}
+.jcc {
+  justify-content: center;
+}
+.jcfs {
+  justify-content: flex-start;
+}
+.jcfe {
+  justify-content: flex-end;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.jcsa {
+  justify-content: space-around;
+}
+.jcse {
+  justify-content: space-evenly;
+}
+.aic {
+  align-items: center;
+}
+.aifs {
+  align-items: flex-start;
+}
+.aife {
+  align-items: flex-end;
+}
+.ais {
+  align-items: stretch;
+}
+.aib {
+  align-items: baseline;
+}
+.fww {
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
