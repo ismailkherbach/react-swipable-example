@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-swipable-example/static/css/main.203cbeae.chunk.css",
+    "main.js": "/react-swipable-example/static/js/main.7ef200b2.chunk.js",
+    "main.js.map": "/react-swipable-example/static/js/main.7ef200b2.chunk.js.map",
+    "runtime-main.js": "/react-swipable-example/static/js/runtime-main.d7676ab9.js",
+    "runtime-main.js.map": "/react-swipable-example/static/js/runtime-main.d7676ab9.js.map",
+    "static/css/2.2afd597b.chunk.css": "/react-swipable-example/static/css/2.2afd597b.chunk.css",
+    "static/js/2.deb38eed.chunk.js": "/react-swipable-example/static/js/2.deb38eed.chunk.js",
+    "static/js/2.deb38eed.chunk.js.map": "/react-swipable-example/static/js/2.deb38eed.chunk.js.map",
+    "static/js/3.f366e19d.chunk.js": "/react-swipable-example/static/js/3.f366e19d.chunk.js",
+    "static/js/3.f366e19d.chunk.js.map": "/react-swipable-example/static/js/3.f366e19d.chunk.js.map",
+    "index.html": "/react-swipable-example/index.html",
+    "static/css/2.2afd597b.chunk.css.map": "/react-swipable-example/static/css/2.2afd597b.chunk.css.map",
+    "static/css/main.203cbeae.chunk.css.map": "/react-swipable-example/static/css/main.203cbeae.chunk.css.map",
+    "static/js/2.deb38eed.chunk.js.LICENSE.txt": "/react-swipable-example/static/js/2.deb38eed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7676ab9.js",
+    "static/css/2.2afd597b.chunk.css",
+    "static/js/2.deb38eed.chunk.js",
+    "static/css/main.203cbeae.chunk.css",
+    "static/js/main.7ef200b2.chunk.js"
+  ]
+}
